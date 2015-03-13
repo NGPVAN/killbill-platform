@@ -180,6 +180,17 @@ public interface OSGIConfig extends KillbillPlatformConfig {
              "javax.servlet;version=3.0," +
              "javax.servlet.http;version=3.0," +
 
+							"org.w3c.dom," +
+							"org.w3c.dom.bootstrap," +
+							"org.w3c.dom.events," +
+							"org.w3c.dom.ls," +
+							"org.w3c.dom.css," +
+							"org.w3c.dom.html," +
+							"org.w3c.dom.ranges," +
+							"org.w3c.dom.stylesheets," +
+							"org.w3c.dom.traversal," +
+							"org.w3c.dom.views," +
+
              // Since we are using joda in our APIs we need to export it
              "org.joda.time;org.joda.time.format;version=2.3," +
              "org.osgi.service.log;version=1.3," +

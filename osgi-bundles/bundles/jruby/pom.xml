@@ -191,7 +191,9 @@
                             javax.security.auth;
                             javax.security.auth.*;
                             javax.security.auth.x500;
-                            javax.security.auth.x500.*;resolution:=optional
+                            javax.security.auth.x500.*;
+                            org.w3c.dom.ranges;
+														org.w3c.dom.ranges.*;resolution:=optional
                         </Import-Package>
                     </instructions>
                 </configuration>
